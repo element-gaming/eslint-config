@@ -31,7 +31,7 @@
     "prettier": "^2.3.0"
   },
   "scripts": {
-    "test": "yarn eslint",
+    "test": "yarn eslint && yarn prettier:test",
     "eslint": "eslint index.js",
     "prettier:test": "prettier --list-different index.js"
   }
