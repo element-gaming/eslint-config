@@ -1,7 +1,5 @@
 # Element Gaming - eslint-config
 
-[![Build Status](https://travis-ci.org/element-gaming/eslint-config.svg?branch=main)](https://travis-ci.org/element-gaming/eslint-config)
-
 This package provides an eslint-config with mostly recommended rules. It already includes prettier configuration.
 
 ## Installation and usage
