@@ -1,0 +1,38 @@
+{
+  "name": "@element-gaming/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared eslint config for js projects",
+  "main": "index.js",
+  "repository": "https://github.com/element-gaming/eslint-config",
+  "author": "Element Gaming <info@element-gaming.eu>",
+  "contributors": [
+    "Andrea Tombolato (https://github.com/andreacw5)",
+    "Piero Nicolli (https://github.com/pnicolli)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "prettier",
+    "element-gaming",
+    "config"
+  ],
+  "peerDependencies": {
+    "eslint": ">=4.16.0",
+    "eslint-config-prettier": ">=2.9.0",
+    "eslint-plugin-import": ">=2.8.0",
+    "eslint-plugin-prettier": ">=2.5.0",
+    "prettier": ">=1.10.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0"
+  },
+  "scripts": {
+    "test": "yarn eslint",
+    "eslint": "eslint index.js",
+    "prettier:test": "prettier --list-different index.js"
+  }
+}
